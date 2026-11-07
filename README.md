@@ -24,7 +24,8 @@ Responses are private. Open the linked Sheet from the form editor's Responses �
 There is no public guest-list page, published response feed, or response data in the website source.
 The form has two required questions: `اسم و فامیلت چیه؟` and `تنها میای یا با همراه؟`.
 The latter has exactly `تنها میام` and `با یک همراه میام` as its options.
-The response Sheet has automatic totals in E1:F4: responses, companions and total guests.
+The private response spreadsheet has automatic totals on the separate `آمار مهمانی` tab: responses, companions and total guests.
+These formulas count whole source columns so row insertion by Google Forms does not skip earlier responses. Keep summaries off the form response tab.
 Keep the companion option text unchanged unless you also update the Sheet's COUNTIF formula.
 Do not publish the response Sheet to the web or enable public results summaries.
 Totals count responses, plus one extra person for each “با یک همراه میام”. No sign-in means repeat responses cannot be reliably prevented;
